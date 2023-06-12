@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #123342;
+    color: #f8f0f0;
+
+}
+.container{
+    margin: 12%;
+    width: 90%;
+    max-width: 700px;
+
+}
+.display{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: #f8f0f0;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 20px;
+    border-radius: 5px ;
+}
+.container h1{
+    font-weight: 500;
+    font-size: 45px;
+}
+.container h1 span{
+    color: rgb(119, 101, 238);
+    border-bottom: 4px solid #234523;
+    padding-bottom: 5px;
+}
+.display img{
+    width: 30px;
+    cursor: pointer;
+}
+.display input{
+    border: 0;
+    outline: 0;
+    font-size: 25px;
+}
+button{
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background:#234523 ;
+    
+}
+.copybtn{
+    padding: 5px;
+    font-size: medium;
+}
+.genbtn{
+    padding: 5px;
+    font-size: medium;
+    
+}
